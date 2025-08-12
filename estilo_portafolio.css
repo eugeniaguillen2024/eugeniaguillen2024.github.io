@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+body{
+    background-image: url("0.webp");
+}
+
+h1{
+color:rgb(46, 16, 73);
+background-color: rgb(166, 166, 241);
+text-align: center;
+font-size: 400%;
+height: 2em;
+border:rgb(70, 70, 117) 1px solid;
+line-height: 2em;
+}
+h2{
+ color:rgb(0, 0, 0);
+text-align: center;
+font-size: 200%;
+height: 2em;
+line-height: 2em;   
+}
+
+ p1{
+    color:rgb(85, 0, 0);
+background:rgb(235, 199, 199);
+text-align: center;
+font-size: 300%;
+height: 2em;
+line-height: 2em;
+display: block;
+}
+p2{
+color:rgb(25, 0, 48);
+text-align: center;
+font-size: 200%;
+height: 2em;
+line-height: 2em;
+display: block;
+
+}
+
+p3{
+   color:rgb(0, 0, 0);
+   background-color: rgb(255, 255, 255);
+text-align: center;
+font-size: 150%;
+height: 2em;
+line-height: 2em;
+display: block;
+}
+
+div{
+    flex: 1;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    height: 25em;
+}
+
+img:hover{
+    transform:scale(1.1);
+    box-shadow: 5px 5px 10px rgba(76, 83, 179, 0.3);
+}
+
+.mi-foto{
+     width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover; 
+    border: 3px solid #694174; 
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
